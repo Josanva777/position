@@ -16,6 +16,7 @@ html{
     background-attachment: fixed;
     font-family: 'fuente1';
     background-color: rgb(238, 138, 138);
+    font-size: 18px;
 }
 
 p{
@@ -101,4 +102,28 @@ img{
 
     top:60% ;
     left: 44%;
+}
+
+body{
+    padding-top: 100px;
+}
+
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    background-color: rgb(255, 0, 0);
+}
+
+.logo{
+    padding: 15px; 
+}
+
+.logo img{
+ width: 90px;
+ border-radius: 50%;
 }
